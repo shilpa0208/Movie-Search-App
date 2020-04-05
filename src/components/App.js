@@ -6,7 +6,7 @@ import Search from '../../src/components/Search'
 
 
 const MOVIE_API_KEY = process.env.REACT_APP_MOVIE_API_KEY
-const MOVIE_API_BASE_URL = 'https://www.omdbapi.com/'
+const MOVIE_API_BASE_URL = process.env.REACT_APP_MOVIE_API_BASE_URL
 
 const App = () => {
   const [loading, setLoading] = useState(true)

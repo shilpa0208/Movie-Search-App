@@ -1,7 +1,7 @@
 import React from 'react'
 
 /** Default image to be rendered if the API does not return one */
-const DEFAULT_PLACEHOLDER_IMAGE = 'https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg'
+const DEFAULT_PLACEHOLDER_IMAGE = process.env.REACT_APP_DEFAULT_PLACEHOLDER_IMAGE
 
 const Movie = ({ movie }) => {
      const poster = movie.poster === 'N/A' ? DEFAULT_PLACEHOLDER_IMAGE : movie.Poster
