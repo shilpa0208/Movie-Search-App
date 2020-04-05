@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "dotenv": "^8.2.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
   },
-   "resolutions": {
+  "resolutions": {
     "**/**/acorn": "^6.4.1",
     "**/**/handlebars": "^4.3.0",
     "**/**/kind-of": "^6.0.3",
